@@ -65,7 +65,6 @@ async function getAIAnalysis(itemName, price) {
         });
 
         const data = await response.json();
-        // Extract the text from the Gemini JSON structure
         return data.candidates[0].content.parts[0].text;
     } catch (e) {
         console.error("API Error:", e);
