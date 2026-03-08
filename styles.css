@@ -1,0 +1,67 @@
+/* General Body */
+body {
+    background-color: white;
+    color: #fdaac5;
+    font-family: 'Comfortaa', sans-serif;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+section.bg-light {
+    background-color: rgb(253, 221, 235) !important; 
+}
+
+section.text-center h1 { 
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+section.text-center p {
+    font-size: 1.2rem;
+}
+
+/* How it Works Icons */
+.row img {
+    transition: transform 0.3s;
+}
+
+.row img:hover {
+    transform: scale(1.2);
+}
+
+/* Cards / Text */
+.row h5 {
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.row p {
+    font-size: 0.95rem;
+    color: #fdaac5;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #fdaac5;
+    border-color: #fdaac5;
+    color: rgb(253, 221, 235);
+    font-weight: 600;
+    padding: 10px 25px;
+}
+
+.btn-primary:hover {
+    background-color: #fdaac5;
+    border-color: #fdaac5;
+}
+
+/* Footer */
+footer {
+    font-size: 0.9rem;
+    background-color: rgb(255, 203, 226);
+    color: #fdaac5;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #fdaac5;
+}
